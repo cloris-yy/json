@@ -1,0 +1,36 @@
+{"msgid":"200", "roomid":"20170702", "userid":"123", "alias":"student","role":"1","ep":"123"}
+{"msgid":"200", "roomid":"20170702", "userid":"456", "alias":"teacher","role":"2","ep":"123"}
+{"msgid":"200", "roomid":"20170702", "userid":"789", "alias":"fireman","role":"3","ep":"123"}
+
+{"msgid":"201", "roomid":"20170702", "userid":"123"}
+{"msgid":"203", "roomid":"20170702", "userid":"456","type":"",  "nick":"yy", "msg" :{"userid":"123", "roomid":"20170702", "data":"5", "msgtype":"9"} }
+{"msgid":"204", "roomid":"20170702", "userid":"789"}
+{"msgid":"205", "roomid":"20170702", "userid":"123", "flash_ver":"1", "camera_name":"2", "microphone_name":"3","user_agent":"4"}
+{"msgid":"15", "roomid":"20170702", "userid":"123", "audio_up_sp":"5", "audio_down_sp":"6", "video_up_sp":"7","video_down_sp":"8", "frame_rate":"9","memory":"10","frame_rate":"9","memory":"10","localping":"11","fullping":"12","clientip":"13"}
+
+
+
+{"msgid":"202", "roomid":"20170702", "userid":"456","type":"",  "nick":"yy", "msg" :{"userid":"123", "roomid":"20170702", "data":{"d":"1","b":"2"},"action":"2"} }
+//Json->String
+{"msgid":"202", "roomid":"20170702", "userid":"456","type":"",  "nick":"yy", "msg" :{"userid":"123", "roomid":"20170702", "data":"{\"d\":\"1\",\"b\":\"2\"}","action":"2"} }
+456 person d b
+
+{"msgid":"202", "roomid":"20170702", "userid":"456","type":"",  "nick":"yy", "msg" :{"userid":"123", "roomid":"20170702", "data":{"d":"1","b":"3","c":"4"},"action":"2"} }
+//Json->String
+{"msgid":"202", "roomid":"20170702", "userid":"456","type":"",  "nick":"yy", "msg" :{"userid":"123", "roomid":"20170702", "data":"{\"d\":\"1\",\"b\":\"3\",\"c\":\"4\"}","action":"2"} }
+456 person d b c
+
+
+{"msgid":"203", "roomid":"20170702", "userid":"456","type":"",  "nick":"yy", "msg" :{"userid":"123", "roomid":"20170702", "data":{"a":"1", "b":"2"}, "msgtype":"31", "action":"2"} }
+//Json->String
+{"msgid":"203", "roomid":"20170702", "userid":"456","type":"",  "nick":"yy", "msg" :{"userid":"123", "roomid":"20170702", "data":"{\"a\":\"1\", \"b\":\"2\"}", "msgtype":"31", "action":"2"} }
+
+board a b
+
+{"msgid":"206", "roomid":"20170702", "userid":"456"}
+
+d b a c
+
+{"msgid":"206", "roomid":"20170702", "userid":"123"}
+
+a b
